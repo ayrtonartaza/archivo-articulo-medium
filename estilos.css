@@ -1,0 +1,53 @@
+body {
+  background: url(img/fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+header {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+main article {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 56px;
+  padding: 0 20px;
+}
+main article h1 {
+  font-family: Aclonica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 0.12em;
+  color: #f3e5e8;
+}
+main article p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.12em;
+  color: #f2eeee;
+}
+main article button {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 10px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffff91;
+  width: 133px;
+  height: 58.42px;
+  left: 25px;
+  top: 346px;
+  background: #f04669;
+  border-radius: 8px;
+  border: none;
+}
